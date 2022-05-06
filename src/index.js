@@ -10,8 +10,4 @@ app.use("/users",usersControllers);
 app.post("/register",register);
 app.get("/register",register);
 app.post("/login",login);
-app.get("/heloo",function(req,res){
-    res.send("working !!");
-})
-
 module.exports =app;
